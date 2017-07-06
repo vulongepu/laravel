@@ -1,1 +1,8 @@
-<h1>news</h1>
+@extends('layout')
+
+
+@section('content')
+
+   new Page for us .
+
+@stop
