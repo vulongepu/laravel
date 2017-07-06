@@ -13,7 +13,9 @@
 
     @foreach($todos as $todo)
 
-    {{  $todo->todo }}
+    {{  $todo->todo }}  <a href="{{ url('todo/delete', ['id' => $todo->id]) }}" class="btn btn-danger">x</a>
+
+    <hr>
 
    @endforeach
 
