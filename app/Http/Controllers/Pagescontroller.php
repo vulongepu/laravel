@@ -4,11 +4,12 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class Pagescontroller extends Controller
+class PagesController extends Controller
 {
     public function new()
 
     {
+    	// echo "this is long";
     	return view('new');
     }
 }

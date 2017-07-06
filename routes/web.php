@@ -16,6 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('/new', [
-         'users' => 'Pagescontroller@new',
+       'uses' => 'PagesController@new'
 	]);
-
