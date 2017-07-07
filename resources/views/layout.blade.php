@@ -66,6 +66,13 @@
         </style>
     </head>
     <body>
+    @if(Session::has('sussess'))
+
+    <div class="alert alert-success" role="alert">
+       {{ Session::get('sussess')}}
+    </div>
+
+    @endif
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
