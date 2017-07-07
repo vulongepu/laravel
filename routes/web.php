@@ -52,3 +52,8 @@ Route::post('/todo/save/{id}', [
      'uses' => 'TodosController@save',
      'as' => 'todos.save'
 	]);
+
+Route::get('/todos/completed/{id}', [
+     'uses' => 'TodosController@completed',
+     'as' => 'todos.completed'
+	]);
